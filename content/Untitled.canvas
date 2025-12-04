@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"7548ceea9526d341","type":"text","text":"KONUM İZNİ ALINACAK","x":-80,"y":-160,"width":250,"height":60},
+		{"id":"16c73213bc965293","type":"text","text":"Konum filtreleri ile seçim yapılacak","x":140,"y":-30,"width":250,"height":60},
+		{"id":"d686bab2d8a9726f","type":"text","text":"Konuma erişip backendde fonksiyona gönderilecek","x":-330,"y":-30,"width":250,"height":60},
+		{"id":"814083dd8a39f4da","type":"text","text":"Sunucudan eczane listesi yüklenecek","x":-80,"y":-260,"width":250,"height":60},
+		{"id":"ef4a89677d603719","type":"text","text":"Eczane Filtrelenecek","x":-80,"y":100,"width":250,"height":60},
+		{"id":"35ed9ef93d43bd5e","type":"text","text":"Eczane listesi sıralanacak","x":-80,"y":200,"width":250,"height":60},
+		{"id":"cafd291a1280a0e6","type":"file","file":"Pasted image 20251204105800.png","x":-355,"y":398,"width":399,"height":96},
+		{"id":"342c444ce85ef11b","type":"file","file":"Pasted image 20251204120404.png","x":60,"y":398,"width":400,"height":335},
+		{"id":"b8b378621071cf5e","type":"text","text":"Konum Butonu","x":-355,"y":566,"width":150,"height":74},
+		{"id":"3196f7a4a535d2d9","type":"text","text":"Yandex mi  Google mı app mi varsayılan mı?","x":-355,"y":683,"width":150,"height":123},
+		{"id":"7d252c49f8e6f300","type":"text","text":"Telefon","x":-105,"y":566,"width":142,"height":74},
+		{"id":"e4aeeac69f3b2e19","type":"text","text":"Telefon arama kısımına tuşlayacak , aramayacak.","x":-111,"y":683,"width":155,"height":123}
+	],
+	"edges":[
+		{"id":"212fc36021b2ee58","fromNode":"7548ceea9526d341","fromSide":"bottom","toNode":"d686bab2d8a9726f","toSide":"top","label":"izin var"},
+		{"id":"422929a91c2434bb","fromNode":"7548ceea9526d341","fromSide":"bottom","toNode":"16c73213bc965293","toSide":"top","label":"izin yok"},
+		{"id":"f96712a6150449f7","fromNode":"814083dd8a39f4da","fromSide":"bottom","toNode":"7548ceea9526d341","toSide":"top"},
+		{"id":"03280c678e871be2","fromNode":"d686bab2d8a9726f","fromSide":"bottom","toNode":"ef4a89677d603719","toSide":"top"},
+		{"id":"cc0652445cc44975","fromNode":"16c73213bc965293","fromSide":"bottom","toNode":"ef4a89677d603719","toSide":"top"},
+		{"id":"cc700f825f820a68","fromNode":"ef4a89677d603719","fromSide":"bottom","toNode":"35ed9ef93d43bd5e","toSide":"top"},
+		{"id":"ed9556e1d399979b","fromNode":"b8b378621071cf5e","fromSide":"bottom","toNode":"3196f7a4a535d2d9","toSide":"top"},
+		{"id":"ed9a0ef52043d611","fromNode":"7d252c49f8e6f300","fromSide":"bottom","toNode":"e4aeeac69f3b2e19","toSide":"top"}
+	]
+}
